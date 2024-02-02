@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte-seundaria);
+    gap: 100px;
+}
+
+.apresentacao__conteudo{
+    gap: 20px;
+}
+.controle{
+    width: 5px;
+    height: 70px;
+    margin-left: 15px;
+    align-items: baseline;
+}
+
+/* caixa com os cards do martal combat */
+.cont__mortalk{
+    
+    width: 70%;   /*largura da aixa */
+    align-items: flex-start;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.426);
+    gap: 2px;
+} 
+
+ /* caixa com as imagens */
+.morta1{
+    border: solid 1px white;
+    padding: 0% 0%;
+    justify-content: center;
+	border-radius: 10px;
+	width: 350px;
+	height: 700px;
+	display:flex;
+	overflow: hidden;
+    flex-direction: column;
+}
+ /* caixa com as imagens */
+.morta2{
+    border: solid 1px white;
+    padding: 0% 0%;
+    justify-content: center;
+	border-radius: 10px;
+	width: 350px;
+	height: 700px;
+    align-items: self-start;
+	display:flex;
+	overflow: hidden;
+	margin-top: 2px;
+    margin-left: 5px;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+ /* caixa com as imagens */
+.morta3{
+    border: solid 1px white;
+    padding: 0% 0%;
+    justify-content: center;
+	border-radius: 10px;
+	width: 350px;
+	height: 700px;
+    align-items: self-start;
+	display:flex;
+	overflow: hidden;
+	margin-top: 2px;
+    margin-left: 5px;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.img-card{
+    align-items: baseline;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+@media (max-width: 1200px) {
+
+   .cont__mortalk{
+    justify-content: center;
+   }
+   .morta1{
+    width: 30vh;
+    height: 30vh;
+   }
+   .morta2{
+    width: 30vh;
+    height: 30vh;
+   }
+   .morta3{
+    width: 30vh;
+    height: 30vh;
+   }
+
+}
